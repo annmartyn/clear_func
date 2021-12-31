@@ -1,4 +1,4 @@
-import get_health from '../health.js';
+import get_health from '../app.js';
 
 test('should health', () => {
   const result = get_health({name: 'Маг', health: 90 });
